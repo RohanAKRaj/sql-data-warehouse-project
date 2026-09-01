@@ -2,7 +2,7 @@
 
 Welcome to the **Data Warehouse and Analytics Project** repository! 🚀
 
-This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project, it highlights industry best practices in data engineering, data modeling, ETL, and analytics.
+This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project, it highlights practical skills in data engineering, ETL, data modeling, and analytics.
 
 ---
 
@@ -24,7 +24,7 @@ The data architecture for this project follows **Medallion Architecture**, consi
 
 This project involves:
 
-1. **Data Architecture**: Designing a modern data warehouse using Medallion Architecture with **Bronze**, **Silver**, and **Gold** layers.
+1. **Data Architecture**: Designing a modern data warehouse using **Bronze**, **Silver**, and **Gold** layers.
 
 2. **ETL Pipelines**: Extracting, transforming, and loading data from ERP and CRM source systems into the warehouse.
 
@@ -32,45 +32,33 @@ This project involves:
 
 4. **Analytics & Reporting**: Creating SQL-based reports and analytical queries to generate actionable business insights.
 
-🎯 This repository demonstrates practical skills in:
+🎯 This project demonstrates practical skills in:
 
-* SQL Development
+* SQL
 * Data Engineering
 * ETL Pipeline Development
 * Data Warehousing
 * Data Modeling
 * Data Cleaning & Transformation
 * Data Analytics
-* Business Intelligence
 
 ---
 
 ## 🛠️ Tools & Technologies
 
-The project is built using the following tools and technologies:
-
-* **SQL Server** — Database and data warehouse platform
-* **SQL Server Management Studio (SSMS)** — Database management and SQL development
-* **Draw.io** — Data architecture, data flow, and data modeling diagrams
+* **SQL** — Data extraction, transformation, data modeling, ETL, and analytics
 * **Git & GitHub** — Version control and project management
-* **Notion** — Project planning and documentation
 * **CSV Files** — Source data from ERP and CRM systems
 
 ---
 
-## 🔗 Important Links & Tools
+## 🔗 Important Tools
 
-* **Datasets**: Access the raw ERP and CRM CSV datasets in the [`datasets/`](datasets/) directory.
+* **SQL** — Used to build the data warehouse, perform ETL processes, transform data, and create analytical queries.
 
-* **SQL Server Express**: Lightweight SQL Server instance for hosting the data warehouse.
+* **Git & GitHub** — Used for version control and managing the project codebase.
 
-* **SQL Server Management Studio (SSMS)**: GUI for managing and interacting with SQL Server databases.
-
-* **GitHub**: Used for version control, collaboration, and maintaining the project repository.
-
-* **Draw.io**: Used to design data architecture, data flows, ETL processes, and data models.
-
-* **Notion**: Used for project organization, planning, and documentation.
+* **CSV Files** — Used as the source data files containing ERP and CRM data.
 
 ---
 
@@ -80,7 +68,7 @@ The project is built using the following tools and technologies:
 
 #### Objective
 
-Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
+Develop a modern data warehouse using SQL to consolidate sales data, enabling analytical reporting and informed decision-making.
 
 #### Specifications
 
@@ -92,7 +80,7 @@ Develop a modern data warehouse using SQL Server to consolidate sales data, enab
 
 * **Scope**: Focus on the latest available dataset. Historization of data is not required.
 
-* **Documentation**: Provide clear documentation of the data architecture, data model, and transformations to support both business stakeholders and analytics teams.
+* **Documentation**: Provide clear documentation of the data architecture, data model, and transformations.
 
 ---
 
@@ -106,9 +94,7 @@ Develop SQL-based analytics to deliver detailed insights into:
 * **Product Performance**
 * **Sales Trends**
 
-These insights provide stakeholders with meaningful business metrics to support strategic decision-making.
-
-For more details, refer to [`docs/requirements.md`](docs/requirements.md).
+These insights provide meaningful business metrics to support strategic decision-making.
 
 ---
 
@@ -121,7 +107,7 @@ data-warehouse-project/
 ├── datasets/                         # Raw datasets used for the project
 │
 ├── docs/                             # Project documentation and architecture
-│   ├── etl.drawio                    # ETL techniques and processes
+│   ├── etl.drawio                    # ETL processes
 │   ├── data_architecture.drawio      # Project architecture
 │   ├── data_catalog.md               # Dataset fields and metadata
 │   ├── data_flow.drawio              # Data flow diagram
@@ -201,12 +187,11 @@ Hi! I'm **Rohan Raj**, an aspiring **Data Engineer and Data Analytics profession
 
 This project is part of my portfolio and demonstrates my hands-on experience with **SQL, data warehousing, ETL pipelines, data modeling, and analytics**.
 
-I'm continuously learning and improving my skills by working on real-world projects and exploring modern data technologies.
+I'm continuously learning and improving my skills by working on practical projects and exploring modern data technologies.
 
 ### Skills Demonstrated
 
 * SQL
-* SQL Server
 * Data Warehousing
 * ETL Development
 * Data Cleaning
@@ -218,19 +203,4 @@ I'm continuously learning and improving my skills by working on real-world proje
 
 ---
 
-## 🌟 Connect With Me
-
-Feel free to connect with me and check out my other projects:
-
-* **GitHub:** [Add your GitHub profile here](https://github.com/)
-* **LinkedIn:** [Add your LinkedIn profile here](https://www.linkedin.com/)
-* **Portfolio:** [Add your portfolio website here](#)
-
----
-
 ⭐ If you find this project useful, feel free to **star the repository** and explore the code!
-
-```
-
-I’ve deliberately left your **GitHub, LinkedIn, and portfolio URLs as placeholders** rather than inventing them. If you give me those links, I can make the final README fully personalized, including a polished **“About Me”**, tech-stack badges, project highlights, and a more professional GitHub-portfolio layout.
-```
